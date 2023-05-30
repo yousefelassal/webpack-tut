@@ -1,3 +1,3 @@
 # webpack-demo
 
-[webpack docs](https://webpack.js.org/guides/getting-started/)
+[webpack docs](https://webpack.js.org/guides/)
