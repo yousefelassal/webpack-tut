@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import myName from './myName.js';
 import './style.css';
+import Icon from './icon.jpeg';
 
 function component() {
     const element = document.createElement('div');
@@ -10,6 +11,13 @@ function component() {
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.innerHTML += myName('Sha3bola');
     element.classList.add('hello');
+
+    // Add the image to our existing div.
+    const myIcon = new Image();
+    myIcon.src = Icon;
+
+    element.appendChild(myIcon);
+
     return element;
   }
   
