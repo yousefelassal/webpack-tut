@@ -2,6 +2,8 @@ import _ from 'lodash';
 import myName from './myName.js';
 import './style.css';
 import Icon from './icon.jpeg';
+import Data from './data.xml';
+import Notes from './data.csv';
 
 function component() {
     const element = document.createElement('div');
