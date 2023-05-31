@@ -29,6 +29,8 @@ module.exports = {
     clean: true,
   },
   optimization: {
-    runtimeChunk: 'single',
+    splitChunks: {
+      chunks: 'all',
+    },
   },
 };
