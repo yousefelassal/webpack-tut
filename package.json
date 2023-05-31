@@ -1,5 +1,6 @@
 {
   "name": "webpack-tut",
+  "sideEffects": false,
   "version": "1.0.0",
   "description": "",
   "private": "true",
@@ -16,7 +17,8 @@
     "html-webpack-plugin": "^5.5.1",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^4.15.0"
+    "webpack-dev-server": "^4.15.0",
+    "webpack-merge": "^5.9.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
